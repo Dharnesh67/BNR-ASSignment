@@ -3,8 +3,8 @@ a.addEventListener("click", function () {
   let b = document.querySelector(".menuitem");
   let x = document.querySelector(".home-content");
   let y = document.querySelector(".overlay");
+  b.style.display ='block';
   b.style.right = "0";
-  b.style.visibility = "visible";
   x.style.filter = "blur(50px)";
   y.style.filter = "blur(50px)";
 });
@@ -15,6 +15,7 @@ b.addEventListener("click", function () {
   let x = document.querySelector(".home-content");
   let y = document.querySelector(".overlay");
   b.style.right = "-1000px";
+  b.style.display = 'none';
   x.style.filter = "blur(0px)";
   y.style.filter = "blur(0px)";
 });

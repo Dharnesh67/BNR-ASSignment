@@ -37,7 +37,7 @@ body {
   margin-top: 8px;
   justify-self: end;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 .overlay {
   z-index: -100;
@@ -126,7 +126,8 @@ main {
 .centrelogo {
   margin-top: 8px;
 }
-.menuitem {
+.menuitem{
+  display: none;
   position: absolute;
   right: -1000px;
   background-color: rgb(0, 0, 0);
@@ -137,7 +138,6 @@ main {
   border-radius: 20px;
   transition: all 0.2s ease-in;
   z-index: 1000;
-  visibility: hidden;
 }
 .menuitem > ul {
   position: absolute;
@@ -234,8 +234,9 @@ select:focus {
     }
   
     .menuitem {
-      width: 40%;
-      height: 90%;
+      margin-top:8px ;
+      width: 75vw;
+      height: 90vh;
       top: 0;
       right: -1000px;
       border-radius: 0;
@@ -275,6 +276,11 @@ select:focus {
   
     .footer h5 {
       font-size: 15.5px;
-    }
+    }    #L{
+      font-size: 10px;
+  }
+  select{
+      width: 150px; /* Set width as needed */
+  }
   }
   
