@@ -35,6 +35,9 @@ document.querySelector(".team").addEventListener("click", function () {
 document.querySelector(".contact").addEventListener("click", function () {
   window.open("https://baja.nitk.ac.in/#contact", "_blank");
 });
+document.querySelector(".about").addEventListener("click", function () {
+  window.open("https://baja.nitk.ac.in/#contact", "_blank");
+});
 document.querySelector(".gallery").addEventListener("click", function () {
   window.open("https://baja.nitk.ac.in/#achievements", "_blank");
 });
